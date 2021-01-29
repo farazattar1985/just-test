@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>This is Title</title>
+<body>
+<h1>This is a heading</h1>
+<p>Documents decription goes here ...</p>
+<p>سلام به دنیا</p>
+<script>
+var user = prompt("Who's there?");
+switch (user)
+{
+case "Other": alert("I don't know you");
+			  break;
+case "Admin": var pass = prompt ("Password?");
+					switch (pass)
+					{
+					case "TheMaster": alert("Welcome!");
+									  break;	
+					case "Other": alert("Wrong Password!");
+								  break;	
+					default: break;
+					}
+			  break;
+default: break;
+}					
+</script>
+</body>
+</html>
